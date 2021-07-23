@@ -10,6 +10,8 @@ Patches can be found [here](https://tools.suckless.org/dmenu/patches/)
 - [center](https://tools.suckless.org/dmenu/patches/center/)
 - [border](https://tools.suckless.org/dmenu/patches/border/)
 
+![screenshot](pic.png)
+
 ## Installation
 Configurations are kept in config.h. Afterwards run
 
