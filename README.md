@@ -6,13 +6,13 @@ dmenu is an efficient dynamic menu for X.
 In order to build dmenu you need the Xlib header files.
 
 ## Patches
--
+Patches can be found [here](https://tools.suckless.org/dmenu/patches/)
+- [center](https://tools.suckless.org/dmenu/patches/center/)
+- [border](https://tools.suckless.org/dmenu/patches/border/)
+
 ## Installation
-Edit config.mk to match your local setup (dmenu is installed into
-the /usr/local namespace by default).
+Configurations are kept in config.h. Afterwards run
 
-Afterwards enter the following command to build and install dmenu
-(if necessary as root):
+``make clean install``
 
-    make clean install
-
+to build dmenu.
